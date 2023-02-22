@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+
+ <!-- <div class="container mx-auto  mt-10">
+
+    <form action="" class="" id="form-add">
+        <div action="" id="form-group">
+            <label for="" class="bg-blue-500 py-1 px-3 text-white rounded-lg hover:bg-red-700 ">Name</label> <br>
+            <input type="text" class="border border-2 w-full py-2 my-5" id="project-name" />
+        </div>
+        <div action="" id="form-group">
+            <label for="" class="bg-blue-500 py-1 px-3 text-white rounded-lg hover:bg-red-700">Link</label>
+            <input type="text" class="border border-2 w-full py-2 my-5" id="project-link" />
+        </div>
+
+        <div action="" id="form-group">
+            <label for="" class="bg-blue-500 py-1 px-3 text-white rounded-lg hover:bg-red-700">Tên Dự Án</label>
+            <input type="" class="border border-2 w-full py-2 my-5" id="project-DA" />
+        </div>
+
+        <button class="btn btn-primary text-white bg-black font-bold hover:bg-red-700 py-3 px-4 rounded-lg">Thêm dự án</button>
+    </form>
+
+</div> 
+    <section class="container mx-auto">
+        <div class="grid grid-cols-2 ">
+            <div>giao dien trai</div>
+            <div>giao dien phải</div>
+        </div>
+    </section> 
+   -->
+
+
+    <div class="container mx-auto bg-slate-100 rounded-lg mt-10 py-10">
+        <div class="flex justify-center items-center">
+        <div class="bg-white px-5 mx-5 rounded-lg ">
+		<a href="#" class="brand">
+			<i class=''></i>
+			<span class="text-2xl text-blue-700 font-bold">AdminHub</span>
+            <img src="./img/picture2.jpg" alt="" class="w-20 rounded-full my-5 ml-3">
+		</a>
+		<ul class="side-menu top py-2">
+			<li class="active py-3">
+				<a href="#">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li class="py-3">
+				<a href="#">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">MENU</span>
+				</a>
+			</li>
+			<li class="py-2" >
+				<a href="#">
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">About Me</span>
+				</a>
+			</li>
+			<li class="py-1" >
+                <li >
+				<a href="#">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Works</span>
+				</a>
+			</li>
+			<li class="py-3" >
+                
+				<a href="#">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Contact</span>
+				</a>
+			</liv>
+		</ul>
+		<ul class="side-menu mb-10">
+			<li class="py-3" >
+                <li >
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li class="mb-5">
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text ">Logout</span>
+				</a>
+			</li>
+		</ul>
+    </div>
+        <div class="mb-10">
+            <h1 class="text-2xl text-red-700 font-bold">Quản lý dự án</h1>
+                <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+                    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                            <tr>
+                                <th scope="col" class="px-6 py-3">
+                                   #
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                   Name
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Link
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    avatar
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    <span class="sr-only">Edit</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <td scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    1
+                                </th>
+                                <td class="px-6 py-4">
+                                
+                                    hồ văn thắng
+                                </td>
+                                <td class="px-6 py-4">
+                                    thanghvph21617@gmail.com
+                                </td>
+                                <td class="px-6 py-4">
+                                    <img src="" alt="abc">
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <td scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    1
+                                </th>
+                                <td class="px-6 py-4">
+                                    hồ văn thắng
+                                </td>
+                                <td class="px-6 py-4">
+                                    thanghvph21617@gmail.com
+                                </td>
+                                <td class="px-6 py-4">
+                                    <img src="" alt="abc">
+                                </td>
+                                <td class=" px-6 py-4 text-right">
+                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <td scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    1
+                                </th>
+                                <td class="px-6 py-4">
+                                    hồ văn thắng
+                                </td>
+                                <td class=" px-6 py-4">
+                                    thanghvph21617@gmail.com
+                                </td>
+                                <td class="px-6 py-4">
+                                    <img src="" alt="abc">
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+    </div>
+    </div>
+    </div>
+	 
+  
+	
+ 
+ </body>
+</html>
